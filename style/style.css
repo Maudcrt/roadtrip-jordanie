@@ -1,0 +1,104 @@
+@import url('banner.css');
+@import url('footer.css');
+@import url('button.css');
+@import url('cards.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,500&family=Mulish:wght@200&display=swap');
+
+
+.img-desert{
+	width: 600px;
+	height: 400px;
+	position: center;
+}
+.img-petra{
+	width: 300px;
+	height: 400px;
+	padding: 1px;
+	position: center;
+}
+.img-petrabis{
+	width: 608px;
+	height: 400px;
+	position: center;
+}
+
+body{
+ color: black;
+ font-family: 'Lora', serif;
+ margin: 0;
+}
+
+.container{
+	margin: 0 5%;
+}
+p,li{
+	font-family: 'Mulish', sans-serif;
+}
+
+h1, h2{
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #9e5132;
+}
+h2 {
+	color: #c6796a;
+}
+
+h3{
+	color: #9e5132;
+ font-family: 'Lora', serif;
+}
+
+.image-ronde-bg{
+  background-size : cover;
+  background-position : 100% 100%; 
+  background-position : center; 
+  background-image : url(../images/profil.png);
+  display : inline-block;
+  width : 150px; height : 150px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+
+.div{
+	margin: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	font-size: 15px;
+	margin: 0px;
+	padding: 20px;
+}
+
+.list-inline{
+	padding: 0;
+}
+
+.list-inline a{
+	font-size: 20px;
+	color:  rgba(150,73,57);
+}
+.list-inline a:hover{
+	color: darkorange;
+}
+
+@media (min-width: 576px) {
+	.img{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 768px) {
+	.img{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
